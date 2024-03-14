@@ -11,7 +11,7 @@ import java.util.Date;
 public class Movie {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private Long movieId;
     private String name;
     private double rating;
     private Date releaseYear;
